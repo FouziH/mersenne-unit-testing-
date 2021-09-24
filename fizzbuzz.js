@@ -16,6 +16,9 @@ function fizzBuzz (number){
     if(number % 3 === 0) {
         return "FIZZ"
     }
+    if(number % 5 === 0){
+        return "BUZZ"
+    }
 }
 
 console.log("3 should return FIZZ", fizzBuzz(3))
